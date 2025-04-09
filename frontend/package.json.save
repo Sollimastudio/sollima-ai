@@ -1,0 +1,45 @@
+{
+  "name": "sollima-assistant-ai-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "15.2.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.3",
+    "typescript": "^5"
+  }
+}
+silviasolangedelima@MacBook-Air-de-Silvia sollima-assistant-ai % cd ~/Documents/sollima-assistant-ai
+silviasolangedelima@MacBook-Air-de-Silvia sollima-assistant-ai % ls -la
+total 24
+drwxr-xr-x@ 11 silviasolangedelima  staff  352  8 Abr 20:10 .
+drwx------@ 10 silviasolangedelima  staff  320  8 Abr 20:10 ..
+drwxr-xr-x   5 silviasolangedelima  staff  160  8 Abr 20:10 backend
+drwxr-xr-x   9 silviasolangedelima  staff  288  8 Abr 20:10 backend-flask
+drwxr-xr-x@ 13 silviasolangedelima  staff  416  8 Abr 20:10 frontend
+-rw-r--r--@  1 silviasolangedelima  staff  401  8 Abr 20:10 package.json
+drwxr-xr-x@  3 silviasolangedelima  staff   96  8 Abr 20:10 pages
+drwxr-xr-x@  2 silviasolangedelima  staff   64  8 Abr 20:10 public
+-rw-r--r--@  1 silviasolangedelima  staff   77  8 Abr 20:10 README.md
+drwxr-xr-x  11 silviasolangedelima  staff  352  8 Abr 20:10 sollima-ai-novo
+-rwxr-xr-x@  1 silviasolangedelima  staff  408  8 Abr 20:10 start.sh
+silviasolangedelima@MacBook-Air-de-Silvia sollima-assistant-ai % 
+silviasolangedelima@MacBook-Air-de-Silvia sollima-assistant-ai % cd frontend
+silviasolangedelima@MacBook-Air-de-Silvia frontend % rm -rf node_modules packpage-lock.json
+silviasolangedelima@MacBook-Air-de-Silvia frontend % npm instal
+npm error code EJSONPARSE
+npm error path /Users/silviasolangedelima/Documents/sollima-assistant-ai/frontend/package.json
+npm error JSON.parse Unexpected end of JSON input while parsing empty string
+npm error JSON.parse Failed to parse JSON data.
+npm error JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+npm error A complete lo
